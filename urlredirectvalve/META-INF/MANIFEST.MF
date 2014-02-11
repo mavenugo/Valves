@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1392110963805
+Build-Jdk: 1.7.0_40
+Built-By: madhu
+Bundle-ManifestVersion: 2
+Bundle-Name: urlredirectvalve
+Bundle-SymbolicName: org.opendaylight.controller.urlredirectvalve
+Bundle-Version: 0.1.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.opendaylight.controller.urlredirect;uses:="javax.ser
+ vlet,org.apache.catalina.connector,org.opendaylight.controller.clusteri
+ ng.services,org.apache.catalina,org.apache.catalina.valves,org.opendayl
+ ight.controller.connectionmanager,org.slf4j,org.opendaylight.controller
+ .sal.utils";version="0.1.0.SNAPSHOT"
+Fragment-Host: org.apache.catalina
+Import-Package: javax.servlet;version="[2.6,3)",org.apache.catalina;vers
+ ion="[7.0,8)",org.apache.catalina.connector;version="[7.0,8)",org.apach
+ e.catalina.realm;version="[7.0,8)",org.apache.catalina.valves;version="
+ [7.0,8)",org.opendaylight.controller.clustering.services;version="[0.4,
+ 1)",org.opendaylight.controller.connectionmanager;version="[0.1,1)",org
+ .opendaylight.controller.sal.utils;version="[0.7,1)",org.slf4j;version=
+ "[1.7,2)"
+Tool: Bnd-1.50.0
